@@ -24,13 +24,14 @@ class SecondScreen extends StatelessWidget {
       leading: IconButton(
           icon: Icon(
             Icons.chevron_left,
-            color: Colors.green,
+            color: Color(0xFF558B2F),
             size: 40.0,
           ),
           onPressed: () => {Navigator.pop(context)}),
       actions: <Widget>[
         IconButton(
           icon: Icon(Icons.search),
+          color: Color(0xFF052B32),
           onPressed: () => {print('tap')},
         ),
       ],
